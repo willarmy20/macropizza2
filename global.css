@@ -1,0 +1,88 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.bg-black{
+    background-color:black;
+}
+
+.bg-nave{
+    background-color: #14213d;
+}
+
+.bg-accent{
+    background-color: #FCA311;
+}
+
+.bg-lightGray{
+    background-color: #E5E5E5;
+}
+
+.txt-black{
+    color: black;
+}
+.txt-navy{
+    color: #14213D;
+}
+.txt-accent{
+    color: #FCA311;
+}
+.txt-accent a{
+    color: #fca311;
+    text-decoration: none !important;
+}
+.txt-accent a:hover{
+    color: #E5E5E5;
+    text-decoration: underline;
+}
+.txt-lightGray{
+    color: #E5E5E5;
+}
+
+.ps-light{
+    background-color:white;
+    height: 550px;
+    width: 100%;
+}
+
+.ps-grey{
+    background-color: #E5E5E5;
+    height: 550px;
+    width: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("pizza\ background.jpeg");
+
+    /* Set a specific height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+     * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+
+
+      .row {
+        display: flex;
+      }
+      
+      .column {
+        flex: 33%;
+        padding: 10px;
+        padding-left: 25px;
+      }
